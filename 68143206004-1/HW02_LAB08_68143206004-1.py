@@ -1,0 +1,8 @@
+print("โปรแกรมวิเคราะห์ประโยค")
+print("" * 50 )
+sentence = input("ประโยค :")
+char_count = len(sentence)
+words = sentence.split()
+word_count = len(words)
+print(f"จำนวนอักขระทั้งหมด :{char_count} ตัว")
+print(f"จำนวนคพทั้งหมด :{word_count}ตัว")

@@ -1,0 +1,10 @@
+print("โปรแกรมคำนวณค่าดัชณีมวลกาย")
+print("" * 50 )
+weight_kg = input("น้ำหนัก(กก.) :")
+height_cm = input("ส่วนสูง(ซม.) :")
+height_cmf = float(height_cm)
+weight_kgf = float(weight_kg)
+height_m  = height_cmf / 100
+height_mf = float(height_m)
+bmi = weight_kgf / (height_mf * height_mf)
+print(f"ค่า BMI ของคุณคือ :{bmi:.1f}")
