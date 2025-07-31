@@ -1,0 +1,4 @@
+score = 85
+homework_submitted = True
+is_eligible =(score>80)and(homework_submitted == True)
+print("มีสิทธ์ได้รับรางวัล:", is_eligible)
